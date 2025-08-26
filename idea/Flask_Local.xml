@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flask Local" type="Python.FlaskServer" factoryName="Flask server">
+    <module name="docker_demo" />
+    <option name="targetType" value="module" />
+    <option name="FLASK_APP" value="app.app:create_app" />
+    <option name="FLASK_ENV" value="development" />
+    <option name="FLASK_DEBUG" value="1" />
+    <option name="host" value="127.0.0.1" />
+    <option name="port" value="5000" />
+    <option name="pythonInterpreter" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+    <option name="workingDirectory" value="$PROJECT_DIR$" />
+    <method v="2" />
+  </configuration>
+</component>
+
