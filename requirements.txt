@@ -1,2 +1,20 @@
-Flask==3.0.0
-gunicorn==21.2.0
+# --- Core Web Framework ---
+Flask==3.0.3
+
+# --- Production Server (instead of Flask dev server) ---
+gunicorn==22.0.0
+
+# --- Dev Tools ---
+python-dotenv==1.0.1      # load .env files easily
+flask-debugtoolbar==0.14.1 # interactive debug toolbar
+watchdog==4.0.0            # auto-reload in some environments
+black==24.3.0              # code formatter
+flake8==7.1.1              # linter
+
+# --- Testing ---
+pytest==8.2.1
+pytest-cov==5.0.0
+
+# --- Optional for APIs & JSON ---
+requests==2.32.3
+scikit-learn==1.4.2

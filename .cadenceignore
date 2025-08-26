@@ -1,0 +1,21 @@
+# Ignore local virtual environment
+.venv/
+venv/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore Git internal files
+.git/
+.gitignore
+.idea/
+
+# Optional logs or temp files
+*.log
+__pycache__/
+
+# Big assets or datasets (if any)
+data/
+*.csv
+*.h5

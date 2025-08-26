@@ -1,0 +1,19 @@
+# cadence.yaml — JetBrains Cadence run config
+
+entrypoint: train_demo.py
+
+resources:
+  cpu: 2               # number of CPU cores
+  memory: 4G           # RAM
+  gpus: 0              # set to 1 if you later need GPU
+  region: eu-central   # or choose "us-west", "asia-east", etc.
+
+python: python3.10     # or python3.11 depending on host environment
+
+environment:
+  FLASK_ENV: development
+  DEBUG: "1"
+
+# Optional dependencies installation
+install:
+  - pip install scikit-learn
